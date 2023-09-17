@@ -1,14 +1,50 @@
-body {
-background-color: darksalmon;
-color: darkslategrey;
-font-size: 25px;
-}
-h1 {color: black;
-
+h1 {
+    color: black;
 }
 .main-header {
-    color: wheat;
+    color: rgb(0, 0, 0);
+    text-shadow: 3px 3px 3px white;
     text-align: center;
-    margin-top: 60px;
-    width: 50vw;
+    margin-top: 30px;
+    margin-left: 3%;
+    margin-right: 3%;
+    height:13vh;
+    width: inherit;
+    background-image: url(images/sky\ \(2\).jpg);
+    background-position: right;
+    font-size: 50px;
+    border-radius: 15px;
+}
+h2{
+text-align: center;
+margin-left: 3%;
+margin-right: 3%;
+border: 1px dashed;
+border-radius: 10px;
+}
+h3 {
+text-align: center;
+}
+.images {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 20px;
+    max-height: 50%;
+    max-width: max-content;
+}
+.background {
+    background-color: rgb(177, 186, 240);
+    border: 1px solid;
+    border-radius: 15px;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.heading {
+    font-size: 35px;
+}
+body {
+    font-family: 'IBM Plex Serif', serif;
+    background-color: rgb(221, 216, 216);
 }
