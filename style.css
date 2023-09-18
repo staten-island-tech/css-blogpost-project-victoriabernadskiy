@@ -43,8 +43,24 @@ text-align: center;
 }
 .heading {
     font-size: 35px;
+    background-color: rgb(168, 116, 216);
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 10px;
+    background-position: 30px 30px;
+    background-position: center;
+    text-align: center;
+    padding: 10px 2px;
 }
 body {
     font-family: 'IBM Plex Serif', serif;
     background-color: rgb(221, 216, 216);
+}
+.post {
+    background-color: rgb(177, 186, 240);
+    border: 1px solid;
+    border-radius: 15px;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 20px;
 }
